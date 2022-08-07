@@ -174,27 +174,31 @@ main {
   main {
     flex-direction: column;
     width: 100%;
-    height: 100%;
+    height: fit-content;
 }
 .name {
   font-size: 20px;
   margin-top: 35px;
 }
+.player {
+  padding: 50px;
+ 
+}
+.btn--new {
+  top: 1rem;
+}
 .current {
   border-radius: 10px;
   width: 60%;
   padding: 5px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 .btn::first-letter {
   font-size: 0px;
 }
 .dice {
-  position: absolute;
-  left: 50%;
-  top: 50.5rem;
-  transform: translateX(-50%);
-  height: 10rem;
-  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
+  top: 32.5rem;
+  left: 19rem;
+  height: 6rem;
 }
 }
